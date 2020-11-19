@@ -3,6 +3,11 @@ package aquarium.extended;
 import aquarium.Aquarium;
 import aquarium.Fish;
 
+/**
+ * test program for the simulation of the extended virtual aquarium
+ * @author André Kless <andre.kless@web.de>
+ * @version 1.0.0
+ */
 public class TestProgram {
 
 	public static void main(String[] args) throws InterruptedException {
