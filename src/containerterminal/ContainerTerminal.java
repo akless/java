@@ -9,7 +9,7 @@ public class ContainerTerminal {
 
 	/* object attributes */
 
-	private int crane; 			// position of the crane
+	private int crane;			// position of the crane
 	private int max;			// maximum height of a stack
 	private int[] stack;		// contains the height of each stack
 	private boolean container;	// crane has picked up a container
