@@ -2,6 +2,11 @@ package memory;
 
 import java.util.Scanner;
 
+/**
+ * memory game
+ * @author André Kless <andre.kless@web.de>
+ * @version 1.0.0
+ */
 public class Memory {
 
 	/* object variables */
