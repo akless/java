@@ -24,5 +24,4 @@ public class TestProgram {
 			aquarium.next();
 		}
 	}
-	
 }
