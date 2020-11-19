@@ -94,23 +94,4 @@ public class Aquarium {
 		
 		return null;
 	}
-	
-	/* class methods */
-	
-	/** test program for he simulation of a virtual aquarium */
-	public static void main(String[] args) throws InterruptedException {
-		
-		Aquarium aquarium = new Aquarium(28, 4);
-		
-		aquarium.addFish(new Fish( 0, 3, false));
-		aquarium.addFish(new Fish( 7, 0,  true));
-		aquarium.addFish(new Fish(17, 1, false));
-		aquarium.addFish(new Fish(25, 2,  true));
-		
-		while (true) {
-			System.out.println(aquarium);
-			Thread.sleep(300);
-			aquarium.next();
-		}
-	}	
 }
