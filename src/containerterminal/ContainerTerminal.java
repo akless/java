@@ -127,6 +127,7 @@ public class ContainerTerminal {
 				break;
 			case "x":
 				System.out.println("\nProgram ended.");
+				sc.close();
 				return;
 			}
 		}
